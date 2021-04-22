@@ -14,7 +14,24 @@
         <module>business</module>
         <module>model</module>
         <module>rest</module>
+        <module>app</module>
     </modules>
 
+
+    <dependencies>
+
+        <!-- logback -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>0.9.28</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>0.9.28</version>
+        </dependency>
+    </dependencies>
 
 </project>
